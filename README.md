@@ -1,4 +1,4 @@
-# terraform-aws-ha-web-app
+# aws-webapp-terraform
 
 ## Description
 

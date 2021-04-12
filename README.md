@@ -2,7 +2,7 @@
 
 ## Description
 
-Builds a highly available AWS infrastructure from Terraform for a php web application communicating with a database.
+Builds a high available php web application with a Relation DB in AWS using Terraform Modules.
 
 ![infrastructure schema](./imgs/diagram.jpg)
 
@@ -10,9 +10,9 @@ Builds a highly available AWS infrastructure from Terraform for a php web applic
 
 To use this project, you must first indicate the root password of our database. In my case, I chose to define it in a file called `vars.tf` Example :
 
-```variable "db_password" {
+```
   default = "YOUR PASSWORD"
-}```
+ ```
 
 Second, you must then create your ssh key pair in the `keys` folder. In my case, I use the `ssh-keygen` command as follows :
 

@@ -42,6 +42,8 @@ You can then launch your configuration with the following command
 ```shell
 terraform init 
 
+terraform plan
+
 terraform apply
 ```
 
